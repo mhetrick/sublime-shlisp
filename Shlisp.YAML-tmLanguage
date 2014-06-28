@@ -1,0 +1,27 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Shlisp
+scopeName: source.shlisp
+fileTypes: []
+patterns:
+- match: \b(wind|corp[a-z]?|bar[a-z]?|minor[a-z]?|major[a-z]?|tar|lights)\b
+  name: keyword.control.shlisp
+  comment: butts
+- match: \b(left|right|pan|srate|mul|add|reflect|return|and|xor|modo)\b
+  name: support.function.shlisp
+  comment: nuts
+- match: \b(jump|arab|dirac|short|negwon)\b
+  name: storage.type.shlisp
+  comment: nuts
+- match: \b(horn[a-z]?|saw[a-z]?|toggle[a-z]?|togo[a-z]?|swoop[a-z]?|mount[a-z]?|smoke[a-z]?|dust[a-z]?|fog[a-z]?|haze[a-z]?|swamp[a-z]?|string[a-z]?|comb[a-z]?|zither[a-z]?|wave[a-z]?|water[a-z]?|salt[a-z]?|horse[a-z]?|slew[a-z]?|wheel[a-z]?|sauce[a-z]?|salsa[a-z]?|square[a-z]?|slave[a-z]?|pulse[a-z]?|leak[a-z]?|press[a-z]?)\b
+  name: variable.language.shlisp
+  comment: opcodes
+- match: \b([0-9]*)\b
+  name: constant.numeric.shlisp
+  comment: numbers
+- match: ((;).*)
+  name: comment.line.shlisp
+  comment: comments
+
+uuid: e644c7e0-96d8-445a-91f2-1c949a0bc47c
+...

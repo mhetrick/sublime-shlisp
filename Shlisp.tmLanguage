@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>Shlisp</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>butts</string>
+			<key>match</key>
+			<string>\b(wind|corp[a-z]?|bar[a-z]?|minor[a-z]?|major[a-z]?|tar|lights)\b</string>
+			<key>name</key>
+			<string>keyword.control.shlisp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>nuts</string>
+			<key>match</key>
+			<string>\b(left|right|pan|srate|mul|add|reflect|return|and|xor|modo)\b</string>
+			<key>name</key>
+			<string>support.function.shlisp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>nuts</string>
+			<key>match</key>
+			<string>\b(jump|arab|dirac|short|negwon)\b</string>
+			<key>name</key>
+			<string>storage.type.shlisp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>opcodes</string>
+			<key>match</key>
+			<string>\b(horn[a-z]?|saw[a-z]?|toggle[a-z]?|togo[a-z]?|swoop[a-z]?|mount[a-z]?|smoke[a-z]?|dust[a-z]?|fog[a-z]?|haze[a-z]?|swamp[a-z]?|string[a-z]?|comb[a-z]?|zither[a-z]?|wave[a-z]?|water[a-z]?|salt[a-z]?|horse[a-z]?|slew[a-z]?|wheel[a-z]?|sauce[a-z]?|salsa[a-z]?|square[a-z]?|slave[a-z]?|pulse[a-z]?|leak[a-z]?|press[a-z]?)\b</string>
+			<key>name</key>
+			<string>variable.language.shlisp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>numbers</string>
+			<key>match</key>
+			<string>\b([0-9]*)\b</string>
+			<key>name</key>
+			<string>constant.numeric.shlisp</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>comments</string>
+			<key>match</key>
+			<string>((;).*)</string>
+			<key>name</key>
+			<string>comment.line.shlisp</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.shlisp</string>
+	<key>uuid</key>
+	<string>e644c7e0-96d8-445a-91f2-1c949a0bc47c</string>
+</dict>
+</plist>
